@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'hyperpay-dafa-sdk-pod-installer-git-repository SDK'
   s.description      = 'Embedded hyperpay-dafa-sdk-pod-installer-git-repository OPPWAMobile.xcframework'
   s.homepage         = 'https://your.sdk.url'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author           = { 'YourName' => 'you@example.com' }
   s.source           = { :path => '.' }
   
