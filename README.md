@@ -3,9 +3,17 @@
 
 # Steps to download files , write inside podfile 
 
+* with no navigation of code helper
 ```
-pod 'hyperpay-dafa-sdk-pod-installer-git-repository', :git => 'https://github.com/AbdallahDafa/hyperpay-dafa-sdk-pod-installer-git-repository', :tag => '1.0.4'
+pod 'hyperpay-dafa-sdk-pod-installer-git-repository', :git => 'https://github.com/AbdallahDafa/hyperpay-dafa-sdk-pod-installer-git-repository', :tag => '1.0.3'
 ```
+
+* if you need code "ConfigHelper.swift" to easly navigation
+* latest
+```
+pod 'hyperpay-dafa-sdk-pod-installer-git-repository', :git => 'https://github.com/AbdallahDafa/hyperpay-dafa-sdk-pod-installer-git-repository'
+```
+
 
 # Informaiton Versions
 
