@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'hyperpay-dafa-sdk-pod-installer-git-repository'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'hyperpay-dafa-sdk-pod-installer-git-repository SDK'
   s.description      = 'Embedded hyperpay-dafa-sdk-pod-installer-git-repository OPPWAMobile.xcframework'
   s.homepage         = 'https://your.sdk.url'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source           = { :path => '.' }
   
 
-  s.vendored_frameworks = 'OPPWAMobile.xcframework''ipworks3ds_sdk.xcframework''swift-code-helper/hyperpay/core/Config.swift','swift-code-helper/hyperpay/core/ConfigHandler.swift','swift-code-helper/hyperpay/core/RouterHyperPay.swift'
+  s.vendored_frameworks = 'OPPWAMobile.xcframework', 'ipworks3ds_sdk.xcframework', 'swift-code-helper/hyperpay/core/Config.swift','swift-code-helper/hyperpay/core/ConfigHandler.swift','swift-code-helper/hyperpay/core/RouterHyperPay.swift'
   
   s.requires_arc     = true
 end
