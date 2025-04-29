@@ -6,8 +6,11 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/AbdallahDafa/hyperpay-dafa-sdk-pod-installer-git-repository'
   s.license          = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author           = { 'Abdalla Mahmoud' => 'abdallah.mahmoud.dev@gmail.com' }
-  s.source           = { :path => '.' }
   
+  
+  #working in local not in trunch pod
+  #s.source           = { :path => '.' }
+  s.source = { :git => 'https://github.com/AbdallahDafa/hyperpay-dafa-sdk-pod-installer-git-repository.git', :tag => s.version.to_s }
 
   s.vendored_frameworks = 'OPPWAMobile.xcframework', 'ipworks3ds_sdk.xcframework'
   
