@@ -1,7 +1,23 @@
 # hyperpay-dafa-sdk-pod-installer-git-repository
  install hyper pay from dafa
 
-# Steps to download files , write inside podfile  
+# source pod global
+
+Anyone who wants to use your pod should add this to their Podfile:
+
+```
+pod 'hyper_pay_installer', '1.0.10'
+```
+
+Or just:
+
+````
+pod 'hyper_pay_installer'
+````
+
+
+
+# source github  (deprecated)
 
 * stable version
 ```
