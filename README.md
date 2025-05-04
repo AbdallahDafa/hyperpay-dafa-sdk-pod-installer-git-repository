@@ -25,9 +25,10 @@ pod 'hyperpay-dafa-sdk-pod-installer-git-repository', :git => 'https://github.co
 ```
 
 * if you need code "ConfigHelper.swift" to easly navigation
+
 * latest
 ```
-pod 'hyperpay-dafa-sdk-pod-installer-git-repository', :git => 'https://github.com/AbdallahDafa/hyperpay-dafa-sdk-pod-installer-git-repository'
+pod 'hyperpay-dafa-sdk-pod-installer-git-repository', :git => 'https://github.com/AbdallahDafa/hyperpay-dafa-sdk-pod-installer-git-repository', :tag => '1.0.10' 
 ```
 
  
