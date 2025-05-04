@@ -28,7 +28,7 @@ pod 'hyperpay-dafa-sdk-pod-installer-git-repository', :git => 'https://github.co
 
 * latest
 ```
-pod 'hyperpay-dafa-sdk-pod-installer-git-repository', :git => 'https://github.com/AbdallahDafa/hyperpay-dafa-sdk-pod-installer-git-repository', :tag => '1.0.10' 
+pod 'hyperpay-dafa-sdk-pod-installer-git-repository', :git => 'https://github.com/AbdallahDafa/hyperpay-dafa-sdk-pod-installer-git-repository' 
 ```
 
  
