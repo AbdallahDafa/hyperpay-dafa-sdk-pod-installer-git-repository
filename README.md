@@ -10,10 +10,10 @@ Anyone who wants to use your pod should add this to their Podfile:
 pod 'hyper_pay_installer', '1.0.10'
 ```
 
-* using ios target 13, and swift version 5
+* using ios target dynamic version
 
 ````
-pod 'hyper_pay_installer', '1.0.11'
+pod 'hyper_pay_installer', '1.0.16'
 ````
 
 
