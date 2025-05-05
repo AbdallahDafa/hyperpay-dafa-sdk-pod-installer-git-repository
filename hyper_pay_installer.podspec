@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'hyper_pay_installer'
-  s.version          = '1.0.15'
+  s.version          = '1.0.16'
   s.summary          = 'hyperpay-dafa-sdk-pod-installer-git-repository SDK'
   s.description      = 'Embedded hyperpay-dafa-sdk-pod-installer-git-repository OPPWAMobile.xcframework'
   s.homepage         = 'https://github.com/AbdallahDafa/hyperpay-dafa-sdk-pod-installer-git-repository'
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
 
   # validate on ios only not need tvios
-  s.ios.deployment_target = "13.0"
+  #s.ios.deployment_target = "13.0"
   #s.platform = :ios, '13.0'
   #s.swift_version = '5.0'
   
