@@ -5,14 +5,15 @@
 
 Anyone who wants to use your pod should add this to their Podfile:
 
+* using ios target 15
 ```
 pod 'hyper_pay_installer', '1.0.10'
 ```
 
-Or just:
+* using ios target 13, and swift version 5
 
 ````
-pod 'hyper_pay_installer'
+pod 'hyper_pay_installer', '1.0.11'
 ````
 
 
